@@ -8,7 +8,7 @@
     <script>
         function verificar() {
             let user = document.getElementById("user").value;
-            let pass = document.getElementById("user").value;
+            let pass = document.getElementById("pass").value;
             if (user == "" || pass == "") {
                 alert("preencha os campos corretamente !");
             } else {
@@ -19,9 +19,11 @@
 </head>
 
 <body>
-    <form method="#" action="#" <h1> Login </h1>
+    <form method="#" action="#">
+    <h1> Login </h1>
         <label for="user"> Usúario </label>
-        <input type=" text" id=" " user" <labeel for="pass"> Senha</labeel>
+        <input type=" text" id="user">
+        <label for="pass">Senha</labeel>
         <input type="password" id="pass">
         <input type="submit" value="enviar" onclick="verificar()">
         <input type="reset" value="limpar">
